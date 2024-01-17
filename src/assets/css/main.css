@@ -10,4 +10,30 @@
 .p-7 {
     padding: 1.75rem;
 }
-
+section.main{
+    z-index: 1;
+}
+section.main:before{
+    content:"";
+    background-image: url(../images/background/main.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    z-index: -1;
+}
+.main-logo{
+    min-height: 67px;
+}
+.top-2-5{
+bottom: -10px;
+}
+.w3-5{
+    width: 44%;
+}
