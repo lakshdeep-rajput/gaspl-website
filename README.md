@@ -36,4 +36,3 @@ support@shuffle.dev
 
 We use placeholders from https://unsplash.com/
 
-
